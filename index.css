@@ -1,0 +1,35 @@
+body {
+    margin: 0pt;
+}
+
+.container {
+    width: 100w;
+    height: 100vh;
+}
+
+.topbar {
+    height: 10vh;
+    width: 100vw;
+
+    grid-column: auto;
+    grid-row: 1;
+}
+
+.sidebar {
+    width: 20vw;
+    height: 90vh;
+    max-width: 200pt;
+    float: left;
+    
+    background-color: blue;
+}
+
+.main-window {
+    width: 80vw;
+    height: 90vh;
+    float: right;
+
+    
+    background-color: red;
+}
+
